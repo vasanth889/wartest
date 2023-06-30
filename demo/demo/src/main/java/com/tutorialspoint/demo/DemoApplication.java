@@ -20,12 +20,12 @@ public class DemoApplication  extends SpringBootServletInitializer {
 
 	@RequestMapping(value = "/")
 	public String hello() {
-		return "Hello World from Tomcat";
+		return "war working successfully";
 	}
 
 	@RequestMapping(value = "/user")
 	public String user() {
-		return "user login";
+		return "vasanth logined";
 	}
 
 	@RequestMapping(value = "/working")
