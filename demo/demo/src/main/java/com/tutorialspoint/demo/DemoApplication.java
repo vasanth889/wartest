@@ -35,7 +35,7 @@ public class DemoApplication  extends SpringBootServletInitializer {
 
 	@RequestMapping(value = "/ansible")
         public String ansible() {
-                return "ansible-new conatainer started and its working working";
+                return "ansible-new conatainer recreated and started and its working working";
         }
 
 }
