@@ -39,7 +39,7 @@ public class DemoApplication  extends SpringBootServletInitializer {
         }
 
 	@RequestMapping(value = "/final")
-        public String final() {
+        public String finall() {
                 return "images all cleared and ansible container recreated and started and its working working";
         }
 
