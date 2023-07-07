@@ -32,4 +32,10 @@ public class DemoApplication  extends SpringBootServletInitializer {
 	public String war() {
 		return "ansible and war working";
 	}
+
+	@RequestMapping(value = "/ansible")
+        public String war() {
+                return "yes its working working";
+        }
+
 }
